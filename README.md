@@ -15,7 +15,7 @@ Headings type is a custom font called Intro. It is already included into the pag
 For gray images, use placeholders: https://placeholder.com, like:
 ![](https://via.placeholder.com/800x600)
 
-All other images are provided into the [`images`](images/) folder.
+All other images are provided into the `images` folder.
 
 Insert as many `<img>` tags as you need into the HTML.
 
