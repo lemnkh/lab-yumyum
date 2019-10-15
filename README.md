@@ -12,7 +12,10 @@ Headings type is a custom font called Intro. It is already included into the pag
 
 ## Images
 
-All images are provided into the [`images`](images/) folder.
+For gray images, use placeholders: https://placeholder.com, like:
+![](https://via.placeholder.com/800x600)
+
+All other images are provided into the [`images`](images/) folder.
 
 Insert as many `<img>` tags as you need into the HTML.
 
@@ -24,7 +27,7 @@ It's up to you.
 
 ### Mobile
 
-![mobile](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/19_Yum-Yum_home_mobile.jpg)
+![mobile](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/19_Yum-Yum_home_mobile.jpg x400)
 
 ### Desktop
 
