@@ -27,7 +27,7 @@ It's up to you.
 
 ### Mobile
 
-![mobile](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/19_Yum-Yum_home_mobile.jpg x400)
+![mobile](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/19_Yum-Yum_home_mobile.jpg)
 
 ### Desktop
 
