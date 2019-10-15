@@ -2,6 +2,8 @@
 
 # CSS | YUM-YUM responsive integration
 
+According to the provided designs, do the HTML/CSS integration. You should be mobile-first and responsive.
+
 ## Fonts
 
 - body type is [Lato](https://fonts.google.com/specimen/Lato) : you should include the font with Google Fonts with the following weights: normal, bold, black
@@ -9,11 +11,17 @@
 
 ## Images
 
-Insert as many `img` images as you need into the HTML. You could also use CSS `background`, it's up to you.
+All images are provided into the [`images`](images/) folder.
+
+Insert as many `<img>` tags as you need into the HTML. You could also use CSS `background`, it's up to you.
 
 ## Designs
 
+### Mobile
+
 ![mobile](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/19_Yum-Yum_home_mobile.jpg)
+
+### Desktop
 
 ![desktop](https://s3-us-west-2.amazonaws.com/s.cdpn.io/67030/05_Yum-Yum_home.jpg?v2)
 
