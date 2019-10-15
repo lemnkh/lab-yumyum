@@ -6,14 +6,19 @@ According to the provided designs, do the HTML/CSS integration. You should be mo
 
 ## Fonts
 
-- body type is [Lato](https://fonts.google.com/specimen/Lato) : you should include the font with Google Fonts with the following weights: normal, bold, black
-- headings type is custom font Intro : it is already included into the page and available through : `font-family:"Intro";` with 2 `font-weight`s : `400` and `900`
+Body's type is [Lato](https://fonts.google.com/specimen/Lato). You should include the font with Google Fonts with the following weights: normal, bold, black.
+
+Headings type is a custom font called Intro. It is already included into the page and available through : `font-family:"Intro";` with 2 `font-weight`s : `400` and `900`.
 
 ## Images
 
 All images are provided into the [`images`](images/) folder.
 
-Insert as many `<img>` tags as you need into the HTML. You could also use CSS `background`, it's up to you.
+Insert as many `<img>` tags as you need into the HTML.
+
+Or you could also use CSS `background`.
+
+It's up to you.
 
 ## Designs
 
