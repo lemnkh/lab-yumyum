@@ -1,1 +1,184 @@
 *, :before, :after {box-sizing:border-box;}
+img {max-width: 100%;}
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+h1{
+    font-family: 'Intro', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    padding: 3.5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@media (min-width: 1024px) {
+    nav {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+  }
+
+.masthead{
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 71px;
+    justify-content: left;
+}
+
+@media (min-width: 1024px) {
+    .masthead {
+        height: 34px;
+    }
+  }
+
+.masthead > p {
+    margin-top: 12%;
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+@media (min-width: 1024px) {
+    .masthead > p {
+        margin-top: 5.5%;
+        font-size: 1.2em;
+    }
+  }
+
+#navimg{
+    justify-content: right;
+    display: flex;
+}
+
+
+
+#cartimg{
+    height: 71px;
+
+}
+
+@media (min-width: 1024px) {
+    #cartimg {
+        display: none;
+      }
+   
+  }
+
+
+#hamburgerimg{
+    height:71px;
+
+}
+
+@media (min-width: 1024px) {
+    #hamburgerimg {
+        display: none;
+    }
+  }
+
+#grismoche{
+    width:100%;
+}
+
+#sublimedegrade{
+    background: rgb(55,117,168);
+    background: linear-gradient(180deg, rgba(55,117,168,1) 0%, rgba(221,255,58,1) 0%, rgba(37,191,32,1) 100%);
+    padding: 5%;
+    width: 100%;
+}
+
+#sublimedegrade > h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Intro', sans-serif;
+    font-size: 6em;
+    width: 100%;
+    text-align: left;
+}
+
+
+.icones {
+    width: 80px;
+    margin-right: 10%;
+}
+
+
+label {
+    background-color: white;
+    padding: 3.5%;
+    display: block;
+   
+}
+
+#label1{
+    border-radius: 15px 15px 0 0;
+}
+
+#label2{
+    border-radius: 0 0 15px 15px;
+}
+
+.separateur{
+    height: 3px;
+    background-color: grey;
+    width: 100%;
+}
+
+input{
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    margin-top: 4%;
+    margin-bottom: 4%;  
+}
+
+#boutonmoche{
+    background-color: tomato;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Intro', sans-serif;   
+    font-size: 3em;
+    padding: 6%;  
+    border-radius: 15px;    
+    margin-top: 5%;
+
+}
+
+#marreducss{
+    display: flex;
+    flex-direction: column;
+    padding: 9%;
+}
+
+#marreducss > h2{
+    color: tomato ;   
+}
+
+#preums, #deuz, #troiz{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 4%;
+    font-size: 2em;
+   
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
+

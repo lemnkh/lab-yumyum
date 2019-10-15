@@ -4,51 +4,75 @@
   <meta charset="utf-8" />
   <title></title>
   <link rel="stylesheet" href="fonts/Intro/index.css" />
+  <link rel="stylesheet" href="./css/main.css"
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <header>
     <nav>
       <div class="masthead">
-        <h1>YUM-YUM</h1>
+        
         <p>Local Cuisine Delivered</p>
       </div>
 
-      <div>
-        <a href="javascript:void 0;">Menu</a>
-        <a href="javascript:void 0;">Panier</a>
+      <div id="navimg">
+        <a href="javascript:void 0;"><img id="hamburgerimg" src="images/hamburger.svg" alt="menu"></a>
+        <a href="javascript:void 0;"><img id="cartimg" src="images/cart.svg"  alt="panier"></a>
       </div>
     </nav>
+    <img src="https://via.placeholder.com/3000" id="grismoche">
+   
+    <div id="sublimedegrade">
+      
+        <h2>Order from restaurants around you</h2>
+        
+        <form action="javascript:void 0;">
 
-    <h2>Order from restaurants around you</h2>
-    <form action="javascript:void 0;">
-      <label>
-        Enter your address
-        <input type="text" name="address">
-      </label>
+            
+          <label id="label1">
+            <img src="./images/pin.svg" class="icones"> <input id="address" type="text" name="address" value=" Enter your address">
+          </label>
+          <div class="separateur">
+          </div>
+          <label id="label2">
+              <img src="./images/bbq.svg" class="icones"> <input id="what" type="text" name="foodtype" value="What would you like?">
+          </label>
+      
+          <p>
+            <button id="boutonmoche" type="submit">Find a food</button>
+          </p>
+        </form>
+      
     
-      <label>
-        What would you like
-        <input type="text" name="foodtype">
-      </label>
-
-      <p>
-        <button type="submit">Find a food</button>
-      </p>
-    </form>
-
+  </div>
   </header>
 
-  <section>
+  <section id="marreducss">
+
     <h2>How it works</h2>
 
-    1. Search
-    Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+    <div id="preums">
+      <img src="./images/map.png">
+       <div><h3>1. Search</h3>
+        Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+      </div>
+    </div>
+    
 
-    2. Order
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-
-    3. Eat
-    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+    <div id="deuz"> 
+      <img src="./images/clipboard.png">
+      <div><h3></h3>2. Order</h3>
+          Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</div> 
+     
+    </div>
+  
+    <div id="troiz">
+      <img src="./images/bag.png">
+      <div><h3>3. Eat</h3>
+        Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+      </div>
+      </div>
+   
   </section>
 
   <section>
